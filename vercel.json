@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/article/:path*", "destination": "/index.html" },
+    { "source": "/((?!assets/|hero-eagle.svg).*)", "destination": "/index.html" }
+  ]
+}
