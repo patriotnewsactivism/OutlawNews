@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Eagle over an open American landscape</title>
+  <desc id="desc">A restrained editorial illustration of an eagle in flight above layered hills with a subtle flag motif.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8cdb2"/>
+      <stop offset="0.6" stop-color="#b8ad91"/>
+      <stop offset="1" stop-color="#7a745f"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#102c24"/>
+      <stop offset="1" stop-color="#29463b"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1600" height="760" fill="url(#sky)"/>
+  <g opacity="0.18" filter="url(#soft)">
+    <rect x="0" y="40" width="1600" height="78" fill="#f7f0df"/>
+    <rect x="0" y="176" width="1600" height="64" fill="#8d2e1f"/>
+    <rect x="0" y="304" width="1600" height="64" fill="#f7f0df"/>
+    <rect x="0" y="432" width="1600" height="64" fill="#8d2e1f"/>
+  </g>
+  <path d="M0 555 C240 450 420 510 610 470 C840 420 1050 510 1240 450 C1390 404 1510 420 1600 400 V760 H0 Z" fill="#475447" opacity="0.72"/>
+  <path d="M0 610 C220 540 440 570 660 520 C880 470 1090 565 1310 510 C1430 480 1530 470 1600 485 V760 H0 Z" fill="url(#hill)"/>
+  <path d="M715 270 C650 235 590 225 520 240 C575 252 620 280 660 317 C610 314 558 330 515 360 C590 358 662 350 730 320 C760 307 790 292 818 272 C779 268 748 269 715 270 Z" fill="#101a17"/>
+  <path d="M812 273 C885 223 958 202 1045 210 C985 233 930 271 888 317 C952 311 1018 329 1072 362 C989 355 905 346 826 316 C798 305 782 293 768 282 Z" fill="#101a17"/>
+  <path d="M760 274 C781 250 809 241 836 248 C858 255 874 271 878 291 C856 280 838 279 819 287 C797 296 780 314 766 337 C757 315 754 293 760 274 Z" fill="#101a17"/>
+  <path d="M821 286 L870 275 L842 301 Z" fill="#a6532a"/>
+  <circle cx="831" cy="267" r="5" fill="#f4ecd8"/>
+  <rect x="88" y="82" width="344" height="8" fill="#a6532a" opacity="0.9"/>
+  <text x="88" y="145" font-family="Georgia, serif" font-size="30" letter-spacing="8" fill="#18362d">OUTLAW.NEWS</text>
+</svg>
